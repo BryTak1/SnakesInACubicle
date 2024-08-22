@@ -34,6 +34,12 @@
       "name": "TailID",
       "type": "number",
       "value": 0
+    },
+    {
+      "folded": true,
+      "name": "Unnamed",
+      "type": "number",
+      "value": 0
     }
   ],
   "instances": [
@@ -400,6 +406,128 @@
       "variables": [],
       "effects": [],
       "behaviors": []
+    },
+    {
+      "adaptCollisionMaskAutomatically": true,
+      "assetStoreId": "",
+      "name": "BedObstacle",
+      "type": "Sprite",
+      "updateIfNotVisible": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "animations": [
+        {
+          "name": "NewSprite",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "metadata": "{\"pskl\":{}}",
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "NewSprite",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 7,
+                        "y": 15
+                      },
+                      {
+                        "x": 63,
+                        "y": 15
+                      },
+                      {
+                        "x": 63,
+                        "y": 49
+                      },
+                      {
+                        "x": 7,
+                        "y": 49
+                      }
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "adaptCollisionMaskAutomatically": true,
+      "assetStoreId": "",
+      "name": "WardrobeObstacle",
+      "type": "Sprite",
+      "updateIfNotVisible": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "animations": [
+        {
+          "name": "NewSprite",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "metadata": "{\"pskl\":{}}",
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "NewSprite2",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 4,
+                        "y": 10
+                      },
+                      {
+                        "x": 60,
+                        "y": 10
+                      },
+                      {
+                        "x": 60,
+                        "y": 54
+                      },
+                      {
+                        "x": 4,
+                        "y": 54
+                      }
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
     }
   ],
   "objectsFolderStructure": {
@@ -422,6 +550,12 @@
       },
       {
         "objectName": "NewTiledSprite"
+      },
+      {
+        "objectName": "BedObstacle"
+      },
+      {
+        "objectName": "WardrobeObstacle"
       }
     ]
   },
@@ -487,6 +621,84 @@
               "parameters": [
                 "",
                 "\"RTB\""
+              ]
+            }
+          ],
+          "events": [
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "NumberVariable"
+                  },
+                  "parameters": [
+                    "CurrentLevel",
+                    "=",
+                    "0"
+                  ]
+                }
+              ],
+              "actions": [],
+              "events": [
+                {
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [],
+                  "actions": [
+                    {
+                      "type": {
+                        "value": "Create"
+                      },
+                      "parameters": [
+                        "BedObstacle",
+                        "BedObstacle",
+                        "959",
+                        "466",
+                        ""
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "ResizableCapability::ResizableBehavior::SetSize"
+                      },
+                      "parameters": [
+                        "BedObstacle",
+                        "Resizable",
+                        "294",
+                        "294"
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [],
+                  "actions": [
+                    {
+                      "type": {
+                        "value": "Create"
+                      },
+                      "parameters": [
+                        "",
+                        "WardrobeObstacle",
+                        "265",
+                        "118",
+                        ""
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "ResizableCapability::ResizableBehavior::SetSize"
+                      },
+                      "parameters": [
+                        "WardrobeObstacle",
+                        "Resizable",
+                        "261",
+                        "261"
+                      ]
+                    }
+                  ]
+                }
               ]
             }
           ]
