@@ -239,7 +239,14 @@
       "name": "Food",
       "type": "Sprite",
       "updateIfNotVisible": false,
-      "variables": [],
+      "variables": [
+        {
+          "folded": true,
+          "name": "Num",
+          "type": "number",
+          "value": 5
+        }
+      ],
       "effects": [],
       "behaviors": [],
       "animations": [
@@ -597,20 +604,8 @@
               "parameters": [
                 "",
                 "Head",
-                "0",
-                "0",
-                ""
-              ]
-            },
-            {
-              "type": {
-                "value": "Create"
-              },
-              "parameters": [
-                "",
-                "Food",
-                "RandomWithStep(0,570,30)",
-                "RandomWithStep(0,570,30)",
+                "10",
+                "10",
                 ""
               ]
             },
@@ -622,8 +617,29 @@
                 "",
                 "\"RTB\""
               ]
+            },
+            {
+              "type": {
+                "value": "Create"
+              },
+              "parameters": [
+                "",
+                "Food",
+                "RandomWithStep(0,1287,30)",
+                "RandomWithStep(0,718,0)",
+                ""
+              ]
             }
-          ],
+          ]
+        },
+        {
+          "colorB": 228,
+          "colorG": 176,
+          "colorR": 74,
+          "creationTime": 0,
+          "name": "Stage 1",
+          "source": "",
+          "type": "BuiltinCommonInstructions::Group",
           "events": [
             {
               "type": "BuiltinCommonInstructions::Standard",
@@ -698,10 +714,190 @@
                       ]
                     }
                   ]
+                },
+                {
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [
+                    {
+                      "type": {
+                        "value": "CollisionNP"
+                      },
+                      "parameters": [
+                        "Head",
+                        "Food",
+                        "",
+                        "",
+                        "yes"
+                      ]
+                    }
+                  ],
+                  "actions": [
+                    {
+                      "type": {
+                        "value": "MettreXY"
+                      },
+                      "parameters": [
+                        "Food",
+                        "=",
+                        "RandomWithStep(0,1287,30)",
+                        "=",
+                        "RandomWithStep(0,718,0)"
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "SetNumberVariable"
+                      },
+                      "parameters": [
+                        "Score2",
+                        "+",
+                        "1"
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [
+                    {
+                      "type": {
+                        "value": "CollisionNP"
+                      },
+                      "parameters": [
+                        "Head",
+                        "WardrobeObstacle",
+                        "",
+                        "",
+                        "yes"
+                      ]
+                    }
+                  ],
+                  "actions": [
+                    {
+                      "type": {
+                        "value": "PauseTimer"
+                      },
+                      "parameters": [
+                        "",
+                        "\"RTB\""
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "Scene"
+                      },
+                      "parameters": [
+                        "",
+                        "\"Untitled scene\"",
+                        ""
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [
+                    {
+                      "type": {
+                        "value": "CollisionNP"
+                      },
+                      "parameters": [
+                        "Head",
+                        "BedObstacle",
+                        "",
+                        "",
+                        "yes"
+                      ]
+                    }
+                  ],
+                  "actions": [
+                    {
+                      "type": {
+                        "value": "PauseTimer"
+                      },
+                      "parameters": [
+                        "",
+                        "\"RTB\""
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "Scene"
+                      },
+                      "parameters": [
+                        "",
+                        "\"Untitled scene\"",
+                        ""
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [
+                    {
+                      "type": {
+                        "value": "CollisionNP"
+                      },
+                      "parameters": [
+                        "Food",
+                        "BedObstacle",
+                        "",
+                        "",
+                        "yes"
+                      ]
+                    }
+                  ],
+                  "actions": [
+                    {
+                      "type": {
+                        "value": "MettreXY"
+                      },
+                      "parameters": [
+                        "Food",
+                        "=",
+                        "RandomWithStep(0,1287,30)",
+                        "=",
+                        "RandomWithStep(0,718,0)"
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [
+                    {
+                      "type": {
+                        "value": "CollisionNP"
+                      },
+                      "parameters": [
+                        "Food",
+                        "WardrobeObstacle",
+                        "",
+                        "",
+                        "yes"
+                      ]
+                    }
+                  ],
+                  "actions": [
+                    {
+                      "type": {
+                        "value": "MettreXY"
+                      },
+                      "parameters": [
+                        "Food",
+                        "=",
+                        "RandomWithStep(0,1287,30)",
+                        "=",
+                        "RandomWithStep(0,718,0)"
+                      ]
+                    }
+                  ]
                 }
               ]
             }
-          ]
+          ],
+          "parameters": []
         }
       ],
       "parameters": []
@@ -1428,47 +1624,6 @@
           },
           "parameters": [
             "Head",
-            "Food",
-            "",
-            "",
-            "yes"
-          ]
-        }
-      ],
-      "actions": [
-        {
-          "type": {
-            "value": "MettreXY"
-          },
-          "parameters": [
-            "Food",
-            "=",
-            "RandomWithStep(0,570,30)",
-            "=",
-            "RandomWithStep(0,570,30)"
-          ]
-        },
-        {
-          "type": {
-            "value": "SetNumberVariable"
-          },
-          "parameters": [
-            "Score2",
-            "+",
-            "1"
-          ]
-        }
-      ]
-    },
-    {
-      "type": "BuiltinCommonInstructions::Standard",
-      "conditions": [
-        {
-          "type": {
-            "value": "CollisionNP"
-          },
-          "parameters": [
-            "Head",
             "Tail",
             "",
             "",
@@ -1495,13 +1650,6 @@
             "\"Untitled scene\"",
             ""
           ]
-        }
-      ],
-      "events": [
-        {
-          "type": "BuiltinCommonInstructions::Standard",
-          "conditions": [],
-          "actions": []
         }
       ]
     },
