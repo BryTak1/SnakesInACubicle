@@ -535,6 +535,67 @@
           ]
         }
       ]
+    },
+    {
+      "adaptCollisionMaskAutomatically": true,
+      "assetStoreId": "",
+      "name": "Carpet",
+      "type": "Sprite",
+      "updateIfNotVisible": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "animations": [
+        {
+          "name": "938492cec057b021fa0af9881bd86dbc",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "metadata": "{\"pskl\":{}}",
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "938492cec057b021fa0af9881bd86dbc5",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0.5,
+                    "y": -1
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 0,
+                        "y": 0
+                      },
+                      {
+                        "x": 294,
+                        "y": 0
+                      },
+                      {
+                        "x": 294,
+                        "y": 425
+                      },
+                      {
+                        "x": 0,
+                        "y": 425
+                      }
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
     }
   ],
   "objectsFolderStructure": {
@@ -563,6 +624,9 @@
       },
       {
         "objectName": "WardrobeObstacle"
+      },
+      {
+        "objectName": "Carpet"
       }
     ]
   },
@@ -657,6 +721,45 @@
               ],
               "actions": [],
               "events": [
+                {
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [],
+                  "actions": [
+                    {
+                      "type": {
+                        "value": "Create"
+                      },
+                      "parameters": [
+                        "BedObstacle",
+                        "Carpet",
+                        "885",
+                        "110",
+                        "\"Background layer\""
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "ResizableCapability::ResizableBehavior::SetSize"
+                      },
+                      "parameters": [
+                        "Carpet",
+                        "Resizable",
+                        "280",
+                        "420"
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "SetAngle"
+                      },
+                      "parameters": [
+                        "Carpet",
+                        "=",
+                        "90"
+                      ]
+                    }
+                  ]
+                },
                 {
                   "type": "BuiltinCommonInstructions::Standard",
                   "conditions": [],
@@ -1363,6 +1466,18 @@
       "source": "",
       "type": "BuiltinCommonInstructions::Group",
       "events": [
+        {
+          "type": "BuiltinCommonInstructions::Comment",
+          "color": {
+            "b": 109,
+            "g": 230,
+            "r": 255,
+            "textB": 0,
+            "textG": 0,
+            "textR": 0
+          },
+          "comment": "To make snake slower, increase the decimal in the condition below"
+        },
         {
           "type": "BuiltinCommonInstructions::Standard",
           "conditions": [

@@ -205,7 +205,7 @@
         "alwaysLoaded": false,
         "file": "assets/NewTiledSprite4.png",
         "kind": "image",
-        "metadata": "{\"extension\":\".png\",\"pskl\":{}}",
+        "metadata": "{\"extension\":\".png\",\"pskl\":{},\"localFilePath\":\"assets/NewTiledSprite4.png\"}",
         "name": "NewTiledSprite4",
         "smoothed": true,
         "userAdded": true
@@ -261,6 +261,90 @@
         "kind": "image",
         "metadata": "{\"extension\":\".png\"}",
         "name": "NewSprite2",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "938492cec057b021fa0af9881bd86dbc.jpg",
+        "kind": "image",
+        "metadata": "",
+        "name": "938492cec057b021fa0af9881bd86dbc.jpg",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/938492cec057b021fa0af9881bd86dbc.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "938492cec057b021fa0af9881bd86dbc",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/938492cec057b021fa0af9881bd86dbc2.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "938492cec057b021fa0af9881bd86dbc2",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/938492cec057b021fa0af9881bd86dbc3.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "938492cec057b021fa0af9881bd86dbc3",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/938492cec057b021fa0af9881bd86dbc4.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "938492cec057b021fa0af9881bd86dbc4",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "file": "assets/death.aac",
+        "kind": "audio",
+        "metadata": "",
+        "name": "assets\\death.aac",
+        "preloadAsMusic": false,
+        "preloadAsSound": false,
+        "preloadInCache": false,
+        "userAdded": true
+      },
+      {
+        "file": "assets/1up 5.aac",
+        "kind": "audio",
+        "metadata": "",
+        "name": "assets\\1up 5.aac",
+        "preloadAsMusic": false,
+        "preloadAsSound": false,
+        "preloadInCache": false,
+        "userAdded": true
+      },
+      {
+        "file": "assets/Walk_05.wav",
+        "kind": "audio",
+        "metadata": "",
+        "name": "assets\\Walk_05.wav",
+        "preloadAsMusic": false,
+        "preloadAsSound": false,
+        "preloadInCache": false,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/938492cec057b021fa0af9881bd86dbc5.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "938492cec057b021fa0af9881bd86dbc5",
         "smoothed": true,
         "userAdded": true
       }
