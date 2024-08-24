@@ -1,8 +1,8 @@
 {
   "b": 155,
   "disableInputWhenNotFocused": true,
-  "mangledName": "Untitled_32scene",
-  "name": "Untitled scene",
+  "mangledName": "Stage_321",
+  "name": "Stage 1",
   "r": 155,
   "standardSortMethod": true,
   "stopSoundsOnStartup": true,
@@ -82,160 +82,6 @@
     {
       "adaptCollisionMaskAutomatically": true,
       "assetStoreId": "",
-      "name": "Head",
-      "type": "Sprite",
-      "updateIfNotVisible": false,
-      "variables": [
-        {
-          "folded": true,
-          "name": "Up",
-          "type": "number",
-          "value": 0
-        },
-        {
-          "folded": true,
-          "name": "Down",
-          "type": "number",
-          "value": 0
-        },
-        {
-          "folded": true,
-          "name": "Left",
-          "type": "number",
-          "value": 0
-        },
-        {
-          "folded": true,
-          "name": "Right",
-          "type": "number",
-          "value": 0
-        }
-      ],
-      "effects": [],
-      "behaviors": [],
-      "animations": [
-        {
-          "name": "Head",
-          "useMultipleDirections": false,
-          "directions": [
-            {
-              "looping": false,
-              "metadata": "{\"pskl\":{}}",
-              "timeBetweenFrames": 0.08,
-              "sprites": [
-                {
-                  "hasCustomCollisionMask": true,
-                  "image": "Head4",
-                  "points": [],
-                  "originPoint": {
-                    "name": "origine",
-                    "x": 0,
-                    "y": 0
-                  },
-                  "centerPoint": {
-                    "automatic": true,
-                    "name": "centre",
-                    "x": 0,
-                    "y": 0
-                  },
-                  "customCollisionMask": [
-                    [
-                      {
-                        "x": 3,
-                        "y": 3
-                      },
-                      {
-                        "x": 30,
-                        "y": 3
-                      },
-                      {
-                        "x": 30,
-                        "y": 27
-                      },
-                      {
-                        "x": 3,
-                        "y": 27
-                      }
-                    ]
-                  ]
-                }
-              ]
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "adaptCollisionMaskAutomatically": true,
-      "assetStoreId": "",
-      "name": "Tail",
-      "type": "Sprite",
-      "updateIfNotVisible": false,
-      "variables": [
-        {
-          "folded": true,
-          "name": "UID",
-          "type": "number",
-          "value": 0
-        }
-      ],
-      "effects": [],
-      "behaviors": [],
-      "animations": [
-        {
-          "name": "tail",
-          "useMultipleDirections": false,
-          "directions": [
-            {
-              "looping": false,
-              "metadata": "{\"pskl\":{}}",
-              "timeBetweenFrames": 0.08,
-              "sprites": [
-                {
-                  "hasCustomCollisionMask": true,
-                  "image": "tail2",
-                  "points": [],
-                  "originPoint": {
-                    "name": "origine",
-                    "x": 0,
-                    "y": 0
-                  },
-                  "centerPoint": {
-                    "automatic": true,
-                    "name": "centre",
-                    "x": 0,
-                    "y": 0
-                  },
-                  "customCollisionMask": [
-                    [
-                      {
-                        "x": 0,
-                        "y": 0
-                      },
-                      {
-                        "x": 30,
-                        "y": 0
-                      },
-                      {
-                        "x": 30,
-                        "y": 30
-                      },
-                      {
-                        "x": 0,
-                        "y": 30
-                      }
-                    ]
-                  ]
-                }
-              ]
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "adaptCollisionMaskAutomatically": true,
-      "assetStoreId": "",
       "name": "Food",
       "type": "Sprite",
       "updateIfNotVisible": false,
@@ -300,47 +146,6 @@
           ]
         }
       ]
-    },
-    {
-      "assetStoreId": "",
-      "bold": false,
-      "italic": false,
-      "name": "Score",
-      "smoothed": true,
-      "type": "TextObject::Text",
-      "underlined": false,
-      "variables": [],
-      "effects": [],
-      "behaviors": [],
-      "string": "00",
-      "font": "",
-      "textAlignment": "left",
-      "characterSize": 100,
-      "color": {
-        "b": 226,
-        "g": 144,
-        "r": 74
-      },
-      "content": {
-        "bold": false,
-        "isOutlineEnabled": false,
-        "isShadowEnabled": false,
-        "italic": false,
-        "outlineColor": "255;255;255",
-        "outlineThickness": 2,
-        "shadowAngle": 90,
-        "shadowBlurRadius": 2,
-        "shadowColor": "0;0;0",
-        "shadowDistance": 4,
-        "shadowOpacity": 127,
-        "smoothed": true,
-        "underlined": false,
-        "text": "00",
-        "font": "",
-        "textAlignment": "left",
-        "characterSize": 100,
-        "color": "74;144;226"
-      }
     },
     {
       "adaptCollisionMaskAutomatically": true,
@@ -602,35 +407,38 @@
     "folderName": "__ROOT",
     "children": [
       {
-        "objectName": "Head"
-      },
-      {
-        "objectName": "Food"
-      },
-      {
-        "objectName": "Score"
-      },
-      {
         "objectName": "End"
       },
       {
-        "objectName": "Tail"
-      },
-      {
-        "objectName": "NewTiledSprite"
-      },
-      {
-        "objectName": "BedObstacle"
+        "objectName": "Carpet"
       },
       {
         "objectName": "WardrobeObstacle"
       },
       {
-        "objectName": "Carpet"
+        "objectName": "BedObstacle"
+      },
+      {
+        "objectName": "NewTiledSprite"
+      },
+      {
+        "objectName": "Food"
       }
     ]
   },
   "events": [
+    {
+      "type": "BuiltinCommonInstructions::Comment",
+      "color": {
+        "b": 109,
+        "g": 230,
+        "r": 255,
+        "textB": 0,
+        "textG": 0,
+        "textR": 0
+      },
+      "comment": "Intro: It’s morning and for some reason, a snake is laying in bed. All of a sudden, the alarm goes off.. For the third time that day. gasp! It’s late for work! Quick, grab all the items it’d need to go to work!\n\nIf everything is collected: The suit’s a little tight. But it fits. Time to take public transit Naughta Reptile!\n\nIf everything isn’t collected: Naughta Reptile has failed on putting on a suit properly and showed up to work without anything on resulting in it’s firing for violating corporate dress code"
+    },
     {
       "colorB": 228,
       "colorG": 176,
@@ -915,7 +723,7 @@
                       },
                       "parameters": [
                         "",
-                        "\"Untitled scene\"",
+                        "\"Stage 1\"",
                         ""
                       ]
                     },
@@ -965,7 +773,7 @@
                       },
                       "parameters": [
                         "",
-                        "\"Untitled scene\"",
+                        "\"Stage 1\"",
                         ""
                       ]
                     },
@@ -1810,7 +1618,7 @@
           },
           "parameters": [
             "",
-            "\"Untitled scene\"",
+            "\"Stage 1\"",
             ""
           ]
         }
