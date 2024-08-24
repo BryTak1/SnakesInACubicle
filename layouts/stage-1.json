@@ -428,18 +428,6 @@
   },
   "events": [
     {
-      "type": "BuiltinCommonInstructions::Comment",
-      "color": {
-        "b": 109,
-        "g": 230,
-        "r": 255,
-        "textB": 0,
-        "textG": 0,
-        "textR": 0
-      },
-      "comment": "Intro: It’s morning and for some reason, a snake is laying in bed. All of a sudden, the alarm goes off.. For the third time that day. gasp! It’s late for work! Quick, grab all the items it’d need to go to work!\n\nIf everything is collected: The suit’s a little tight. But it fits. Time to take public transit Naughta Reptile!\n\nIf everything isn’t collected: Naughta Reptile has failed on putting on a suit properly and showed up to work without anything on resulting in it’s firing for violating corporate dress code"
-    },
-    {
       "colorB": 228,
       "colorG": 176,
       "colorR": 74,
@@ -1794,6 +1782,50 @@
             "Text",
             "=",
             "ToString(Variable(Score2))"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [
+        {
+          "type": {
+            "value": "NumberVariable"
+          },
+          "parameters": [
+            "Score2",
+            "=",
+            "10"
+          ]
+        }
+      ],
+      "actions": [
+        {
+          "type": {
+            "value": "PauseTimer"
+          },
+          "parameters": [
+            "",
+            "\"RTB\""
+          ]
+        },
+        {
+          "type": {
+            "value": "Wait"
+          },
+          "parameters": [
+            "1"
+          ]
+        },
+        {
+          "type": {
+            "value": "Scene"
+          },
+          "parameters": [
+            "",
+            "\"CutScene2\"",
+            ""
           ]
         }
       ]
