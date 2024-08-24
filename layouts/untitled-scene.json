@@ -693,6 +693,18 @@
                 "RandomWithStep(0,718,0)",
                 ""
               ]
+            },
+            {
+              "type": {
+                "value": "PlaySound"
+              },
+              "parameters": [
+                "",
+                "assets\\1up 5.aac",
+                "",
+                "",
+                ""
+              ]
             }
           ]
         },
@@ -856,6 +868,18 @@
                         "+",
                         "1"
                       ]
+                    },
+                    {
+                      "type": {
+                        "value": "PlaySound"
+                      },
+                      "parameters": [
+                        "",
+                        "assets\\Walk_05.wav",
+                        "",
+                        "",
+                        ""
+                      ]
                     }
                   ]
                 },
@@ -894,6 +918,18 @@
                         "\"Untitled scene\"",
                         ""
                       ]
+                    },
+                    {
+                      "type": {
+                        "value": "PlaySound"
+                      },
+                      "parameters": [
+                        "",
+                        "assets\\death.aac",
+                        "",
+                        "",
+                        ""
+                      ]
                     }
                   ]
                 },
@@ -930,6 +966,18 @@
                       "parameters": [
                         "",
                         "\"Untitled scene\"",
+                        ""
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "PlaySound"
+                      },
+                      "parameters": [
+                        "",
+                        "assets\\death.aac",
+                        "",
+                        "",
                         ""
                       ]
                     }
