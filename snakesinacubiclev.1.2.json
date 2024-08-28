@@ -787,7 +787,7 @@
         "alwaysLoaded": false,
         "file": "assets/Plant-Pot Fully Grown_Shadow.png",
         "kind": "image",
-        "metadata": "",
+        "metadata": "{\"localFilePath\":\"assets/Plant-Pot Fully Grown_Shadow.png\",\"extension\":\".png\"}",
         "name": "e2208a4850b8b23909c1fcc747103fe56aae6757b5748d919bed2e113a7c2c58_Plant-Pot Fully Grown_Shadow.png",
         "smoothed": true,
         "userAdded": true,
@@ -822,6 +822,81 @@
         "name": "NewSprite14",
         "smoothed": true,
         "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/NewSprite15.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "NewSprite15",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/tiled_Gray Background.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "e4143984855b3f2809a2a27ebfdf1ba854f1bf5248b74cc117ed4002cbe0e5d9_tiled_Gray Background.png",
+        "smoothed": true,
+        "userAdded": true,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Pixel Adventure Pack/Background/e4143984855b3f2809a2a27ebfdf1ba854f1bf5248b74cc117ed4002cbe0e5d9_tiled_Gray Background.png",
+          "name": "gdevelop-asset-store"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Table.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "bb2921e0a7d217d6d25766367e504923e0c3174b90844651142d1df98dd35e69_Table.png",
+        "smoothed": true,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Pirate Bomb Pack/Objects/Other Objects/bb2921e0a7d217d6d25766367e504923e0c3174b90844651142d1df98dd35e69_Table.png",
+          "name": "gdevelop-asset-store"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/DeskObstacle.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "DeskObstacle",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/e2208a4850b8b23909c1fcc747103fe56aae6757b5748d919bed2e113a7c2c58_Plant-Pot Fully Grown_Shadow.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "e2208a4850b8b23909c1fcc747103fe56aae6757b5748d919bed2e113a7c2c58_Plant-Pot Fully Grown_Shadow",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/e2208a4850b8b23909c1fcc747103fe56aae6757b5748d919bed2e113a7c2c58_Plant-Pot Fully Grown_Shadow2.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "e2208a4850b8b23909c1fcc747103fe56aae6757b5748d919bed2e113a7c2c58_Plant-Pot Fully Grown_Shadow2",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Mr. Man_Idle_3.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "f37b9386914d1e5679a01a04b38d066c63ffc1ad53e56ec98069f9b6f7ae03f2_Mr. Man_Idle_3.png",
+        "smoothed": true,
+        "userAdded": true,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/GrafxKid Pack/Character Pack 1/Mr. Man/f37b9386914d1e5679a01a04b38d066c63ffc1ad53e56ec98069f9b6f7ae03f2_Mr. Man_Idle_3.png",
+          "name": "gdevelop-asset-store"
+        }
       }
     ],
     "resourceFolders": []

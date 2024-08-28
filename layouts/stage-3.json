@@ -93,7 +93,7 @@
               "sprites": [
                 {
                   "hasCustomCollisionMask": true,
-                  "image": "NewSprite12",
+                  "image": "NewSprite15",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -109,20 +109,20 @@
                   "customCollisionMask": [
                     [
                       {
-                        "x": 15,
-                        "y": 10
+                        "x": 9,
+                        "y": 23
                       },
                       {
-                        "x": 53,
-                        "y": 10
+                        "x": 55,
+                        "y": 23
                       },
                       {
-                        "x": 53,
-                        "y": 55
+                        "x": 55,
+                        "y": 41
                       },
                       {
-                        "x": 15,
-                        "y": 55
+                        "x": 9,
+                        "y": 41
                       }
                     ]
                   ]
@@ -137,7 +137,7 @@
       "assetStoreId": "",
       "height": 32,
       "name": "NewTiledSprite",
-      "texture": "52670a0931709d806cf7bb5d2f15d278f7be2a11576faaaedf4102eb11739484_tiled_Blue Background.png",
+      "texture": "e4143984855b3f2809a2a27ebfdf1ba854f1bf5248b74cc117ed4002cbe0e5d9_tiled_Gray Background.png",
       "type": "TiledSpriteObject::TiledSprite",
       "width": 32,
       "variables": [],
@@ -147,7 +147,7 @@
     {
       "adaptCollisionMaskAutomatically": true,
       "assetStoreId": "",
-      "name": "PlantObstacle",
+      "name": "BubblerObstacle",
       "type": "Sprite",
       "updateIfNotVisible": false,
       "variables": [],
@@ -155,16 +155,17 @@
       "behaviors": [],
       "animations": [
         {
-          "name": "",
+          "name": "e2208a4850b8b23909c1fcc747103fe56aae6757b5748d919bed2e113a7c2c58_Plant-Pot Fully Grown_Shadow",
           "useMultipleDirections": false,
           "directions": [
             {
               "looping": false,
+              "metadata": "{\"pskl\":{}}",
               "timeBetweenFrames": 0.08,
               "sprites": [
                 {
                   "hasCustomCollisionMask": true,
-                  "image": "e2208a4850b8b23909c1fcc747103fe56aae6757b5748d919bed2e113a7c2c58_Plant-Pot Fully Grown_Shadow.png",
+                  "image": "e2208a4850b8b23909c1fcc747103fe56aae6757b5748d919bed2e113a7c2c58_Plant-Pot Fully Grown_Shadow2",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -180,20 +181,20 @@
                   "customCollisionMask": [
                     [
                       {
-                        "x": 5,
-                        "y": 3
+                        "x": 10,
+                        "y": 2
                       },
                       {
-                        "x": 28,
-                        "y": 3
+                        "x": 22,
+                        "y": 2
                       },
                       {
-                        "x": 28,
-                        "y": 31
+                        "x": 22,
+                        "y": 29
                       },
                       {
-                        "x": 5,
-                        "y": 31
+                        "x": 10,
+                        "y": 29
                       }
                     ]
                   ]
@@ -225,6 +226,42 @@
               "sprites": [
                 {
                   "hasCustomCollisionMask": true,
+                  "image": "f37b9386914d1e5679a01a04b38d066c63ffc1ad53e56ec98069f9b6f7ae03f2_Mr. Man_Idle_3.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 3,
+                        "y": 1
+                      },
+                      {
+                        "x": 13,
+                        "y": 1
+                      },
+                      {
+                        "x": 13,
+                        "y": 16
+                      },
+                      {
+                        "x": 3,
+                        "y": 16
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
                   "image": "NewSprite13",
                   "points": [],
                   "originPoint": {
@@ -241,20 +278,20 @@
                   "customCollisionMask": [
                     [
                       {
-                        "x": 5,
-                        "y": 26
+                        "x": 3,
+                        "y": 1
                       },
                       {
-                        "x": 64,
-                        "y": 26
+                        "x": 13,
+                        "y": 1
                       },
                       {
-                        "x": 64,
-                        "y": 38
+                        "x": 13,
+                        "y": 16
                       },
                       {
-                        "x": 5,
-                        "y": 38
+                        "x": 3,
+                        "y": 16
                       }
                     ]
                   ]
@@ -276,16 +313,17 @@
       "behaviors": [],
       "animations": [
         {
-          "name": "",
+          "name": "DeskObstacle",
           "useMultipleDirections": false,
           "directions": [
             {
               "looping": false,
+              "metadata": "{\"pskl\":{}}",
               "timeBetweenFrames": 0.08,
               "sprites": [
                 {
                   "hasCustomCollisionMask": true,
-                  "image": "assets\\desk.png",
+                  "image": "bb2921e0a7d217d6d25766367e504923e0c3174b90844651142d1df98dd35e69_Table.png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -301,20 +339,56 @@
                   "customCollisionMask": [
                     [
                       {
-                        "x": 8,
-                        "y": 104
+                        "x": 0,
+                        "y": 0
                       },
                       {
-                        "x": 504,
-                        "y": 104
+                        "x": 80,
+                        "y": 0
                       },
                       {
-                        "x": 504,
-                        "y": 408
+                        "x": 80,
+                        "y": 32
                       },
                       {
-                        "x": 8,
-                        "y": 408
+                        "x": 0,
+                        "y": 32
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "DeskObstacle",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 0,
+                        "y": 0
+                      },
+                      {
+                        "x": 80,
+                        "y": 0
+                      },
+                      {
+                        "x": 80,
+                        "y": 32
+                      },
+                      {
+                        "x": 0,
+                        "y": 32
                       }
                     ]
                   ]
@@ -397,7 +471,7 @@
         "objectName": "NewTiledSprite"
       },
       {
-        "objectName": "PlantObstacle"
+        "objectName": "BubblerObstacle"
       },
       {
         "objectName": "CubicleObstacle"
@@ -516,7 +590,7 @@
                   },
                   "parameters": [
                     "BedObstacle",
-                    "PlantObstacle",
+                    "BubblerObstacle",
                     "47",
                     "556",
                     ""
@@ -527,7 +601,7 @@
                     "value": "ResizableCapability::ResizableBehavior::SetSize"
                   },
                   "parameters": [
-                    "PlantObstacle",
+                    "BubblerObstacle",
                     "Resizable",
                     "126",
                     "126"
@@ -784,7 +858,7 @@
                   },
                   "parameters": [
                     "Head",
-                    "PlantObstacle",
+                    "BubblerObstacle",
                     "",
                     "",
                     "yes"
@@ -865,7 +939,7 @@
                   },
                   "parameters": [
                     "Food",
-                    "PlantObstacle",
+                    "BubblerObstacle",
                     "",
                     "",
                     "yes"
