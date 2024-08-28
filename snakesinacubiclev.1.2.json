@@ -1,9 +1,9 @@
 {
   "firstLayout": "Main Menu",
   "gdVersion": {
-    "build": 209,
-    "major": 5,
-    "minor": 4,
+    "build": 99,
+    "major": 4,
+    "minor": 0,
     "revision": 0
   },
   "properties": {
@@ -698,6 +698,130 @@
         "name": "NewSprite9",
         "smoothed": true,
         "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/NewTiledSprite7.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\",\"pskl\":{},\"localFilePath\":\"assets/NewTiledSprite7.png\"}",
+        "name": "NewTiledSprite7",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/NewSprite10.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "NewSprite10",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "snek.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "snek.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/NewSprite11.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "NewSprite11",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/tiled_Blue background.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "2820f54b90f3e1ffc044e2347c9ce98f4e35f7ca9bf70c73604314b2ff8ffc27_tiled_Blue background.png",
+        "smoothed": true,
+        "userAdded": true,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Industrial Platformer Pack (110 assets)/PNG/Retina/2820f54b90f3e1ffc044e2347c9ce98f4e35f7ca9bf70c73604314b2ff8ffc27_tiled_Blue background.png",
+          "name": "gdevelop-asset-store"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/tiled_Blue Background2.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "47fdfb4ae63383cb5cbc2148ee127ca0d2511f2b02a99a72aba52bdad7a421d7_tiled_Blue Background.png",
+        "smoothed": true,
+        "userAdded": true,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Rolling Ball Pack/Background/47fdfb4ae63383cb5cbc2148ee127ca0d2511f2b02a99a72aba52bdad7a421d7_tiled_Blue Background.png",
+          "name": "gdevelop-asset-store"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/NewSprite12.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "NewSprite12",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/tiled_Blue Background3.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "52670a0931709d806cf7bb5d2f15d278f7be2a11576faaaedf4102eb11739484_tiled_Blue Background.png",
+        "smoothed": true,
+        "userAdded": true,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Pixel Adventure Pack/Background/52670a0931709d806cf7bb5d2f15d278f7be2a11576faaaedf4102eb11739484_tiled_Blue Background.png",
+          "name": "gdevelop-asset-store"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Plant-Pot Fully Grown_Shadow.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "e2208a4850b8b23909c1fcc747103fe56aae6757b5748d919bed2e113a7c2c58_Plant-Pot Fully Grown_Shadow.png",
+        "smoothed": true,
+        "userAdded": true,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/32x32 Fantasy Icons Pack v2/Icons/General Items/e2208a4850b8b23909c1fcc747103fe56aae6757b5748d919bed2e113a7c2c58_Plant-Pot Fully Grown_Shadow.png",
+          "name": "gdevelop-asset-store"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/NewSprite13.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "NewSprite13",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/desk.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\desk.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/NewSprite14.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "NewSprite14",
+        "smoothed": true,
+        "userAdded": true
       }
     ],
     "resourceFolders": []
@@ -938,6 +1062,18 @@
     {
       "__REFERENCE_TO_SPLIT_OBJECT": true,
       "referenceTo": "/layouts/cutscene2"
+    },
+    {
+      "__REFERENCE_TO_SPLIT_OBJECT": true,
+      "referenceTo": "/layouts/stage-2"
+    },
+    {
+      "__REFERENCE_TO_SPLIT_OBJECT": true,
+      "referenceTo": "/layouts/cutscene3"
+    },
+    {
+      "__REFERENCE_TO_SPLIT_OBJECT": true,
+      "referenceTo": "/layouts/stage-3"
     }
   ],
   "externalEvents": [],
