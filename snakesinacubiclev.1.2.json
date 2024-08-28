@@ -477,7 +477,7 @@
         "alwaysLoaded": false,
         "file": "assets/TitleBackground2.png",
         "kind": "image",
-        "metadata": "{\"extension\":\".png\",\"pskl\":{}}",
+        "metadata": "{\"extension\":\".png\",\"pskl\":{},\"localFilePath\":\"assets/TitleBackground2.png\"}",
         "name": "TitleBackground2",
         "smoothed": true,
         "userAdded": true
@@ -1032,6 +1032,33 @@
         "kind": "image",
         "metadata": "{\"localFilePath\":\"snake2.png\",\"extension\":\".png\"}",
         "name": "snake2.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/NewSprite16.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "NewSprite16",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/NewSprite17.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\",\"localFilePath\":\"assets/NewSprite17.png\"}",
+        "name": "NewSprite17",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/NewSprite18.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "NewSprite18",
         "smoothed": true,
         "userAdded": false
       }
