@@ -225,10 +225,10 @@
       "variables": [],
       "effects": [],
       "behaviors": [],
-      "string": "Snake",
+      "string": "Snakes in A Cubicle",
       "font": "078f2c53113817df13b013f3ef602c397bc7ae7305b8bb97b191688940cf3bd2_Kenney Future Narrow.ttf",
       "textAlignment": "center",
-      "characterSize": 200,
+      "characterSize": 100,
       "color": {
         "b": 74,
         "g": 74,
@@ -248,10 +248,10 @@
         "shadowOpacity": 127,
         "smoothed": true,
         "underlined": false,
-        "text": "Snake",
+        "text": "Snakes in A Cubicle",
         "font": "078f2c53113817df13b013f3ef602c397bc7ae7305b8bb97b191688940cf3bd2_Kenney Future Narrow.ttf",
         "textAlignment": "center",
-        "characterSize": 200,
+        "characterSize": 100,
         "color": "74;74;74"
       }
     },
