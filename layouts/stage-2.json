@@ -155,16 +155,17 @@
       "behaviors": [],
       "animations": [
         {
-          "name": "",
+          "name": "PlantObstacle",
           "useMultipleDirections": false,
           "directions": [
             {
               "looping": false,
+              "metadata": "{\"pskl\":{}}",
               "timeBetweenFrames": 0.08,
               "sprites": [
                 {
                   "hasCustomCollisionMask": true,
-                  "image": "e2208a4850b8b23909c1fcc747103fe56aae6757b5748d919bed2e113a7c2c58_Plant-Pot Fully Grown_Shadow.png",
+                  "image": "f9230227101fc56d013718485d5a06165896f0a5cfa4d3d7d3ae42b846af7586_Plant-Pot Fully Grown_No Shadow.png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -184,16 +185,52 @@
                         "y": 3
                       },
                       {
-                        "x": 28,
+                        "x": 27,
                         "y": 3
                       },
                       {
-                        "x": 28,
-                        "y": 31
+                        "x": 27,
+                        "y": 29
                       },
                       {
                         "x": 5,
-                        "y": 31
+                        "y": 29
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "PlantObstacle",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 5,
+                        "y": 3
+                      },
+                      {
+                        "x": 27,
+                        "y": 3
+                      },
+                      {
+                        "x": 27,
+                        "y": 29
+                      },
+                      {
+                        "x": 5,
+                        "y": 29
                       }
                     ]
                   ]

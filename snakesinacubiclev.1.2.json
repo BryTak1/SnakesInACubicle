@@ -1,9 +1,9 @@
 {
   "firstLayout": "Main Menu",
   "gdVersion": {
-    "build": 209,
-    "major": 5,
-    "minor": 4,
+    "build": 99,
+    "major": 4,
+    "minor": 0,
     "revision": 0
   },
   "properties": {
@@ -895,6 +895,37 @@
         "userAdded": true,
         "origin": {
           "identifier": "https://asset-resources.gdevelop.io/public-resources/GrafxKid Pack/Character Pack 1/Mr. Man/f37b9386914d1e5679a01a04b38d066c63ffc1ad53e56ec98069f9b6f7ae03f2_Mr. Man_Idle_3.png",
+          "name": "gdevelop-asset-store"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Plant-Pot Fully Grown_Shadow.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\Plant-Pot Fully Grown_Shadow.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/PlantObstacle.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "PlantObstacle",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Plant-Pot Fully Grown_No Shadow.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "f9230227101fc56d013718485d5a06165896f0a5cfa4d3d7d3ae42b846af7586_Plant-Pot Fully Grown_No Shadow.png",
+        "smoothed": true,
+        "userAdded": true,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/32x32 Fantasy Icons Pack v2/Icons/General Items/f9230227101fc56d013718485d5a06165896f0a5cfa4d3d7d3ae42b846af7586_Plant-Pot Fully Grown_No Shadow.png",
           "name": "gdevelop-asset-store"
         }
       }

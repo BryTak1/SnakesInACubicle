@@ -69,23 +69,6 @@
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
-    },
-    {
-      "angle": 0,
-      "customSize": true,
-      "depth": 1,
-      "height": 111,
-      "keepRatio": true,
-      "layer": "",
-      "name": "DeskObstacle",
-      "persistentUuid": "2be39686-3664-48d9-af62-3b719e50dc45",
-      "width": 214,
-      "x": 112,
-      "y": 287,
-      "zOrder": 3,
-      "numberProperties": [],
-      "stringProperties": [],
-      "initialVariables": []
     }
   ],
   "objects": [
@@ -225,103 +208,6 @@
     {
       "adaptCollisionMaskAutomatically": true,
       "assetStoreId": "",
-      "name": "CoworkerObstacle",
-      "type": "Sprite",
-      "updateIfNotVisible": false,
-      "variables": [],
-      "effects": [],
-      "behaviors": [],
-      "animations": [
-        {
-          "name": "NewSprite",
-          "useMultipleDirections": false,
-          "directions": [
-            {
-              "looping": false,
-              "metadata": "{\"pskl\":{}}",
-              "timeBetweenFrames": 0.08,
-              "sprites": [
-                {
-                  "hasCustomCollisionMask": true,
-                  "image": "f37b9386914d1e5679a01a04b38d066c63ffc1ad53e56ec98069f9b6f7ae03f2_Mr. Man_Idle_3.png",
-                  "points": [],
-                  "originPoint": {
-                    "name": "origine",
-                    "x": 0,
-                    "y": 0
-                  },
-                  "centerPoint": {
-                    "automatic": true,
-                    "name": "centre",
-                    "x": 0,
-                    "y": 0
-                  },
-                  "customCollisionMask": [
-                    [
-                      {
-                        "x": 3,
-                        "y": 1
-                      },
-                      {
-                        "x": 13,
-                        "y": 1
-                      },
-                      {
-                        "x": 13,
-                        "y": 16
-                      },
-                      {
-                        "x": 3,
-                        "y": 16
-                      }
-                    ]
-                  ]
-                },
-                {
-                  "hasCustomCollisionMask": true,
-                  "image": "NewSprite13",
-                  "points": [],
-                  "originPoint": {
-                    "name": "origine",
-                    "x": 0,
-                    "y": 0
-                  },
-                  "centerPoint": {
-                    "automatic": true,
-                    "name": "centre",
-                    "x": 0,
-                    "y": 0
-                  },
-                  "customCollisionMask": [
-                    [
-                      {
-                        "x": 3,
-                        "y": 1
-                      },
-                      {
-                        "x": 13,
-                        "y": 1
-                      },
-                      {
-                        "x": 13,
-                        "y": 16
-                      },
-                      {
-                        "x": 3,
-                        "y": 16
-                      }
-                    ]
-                  ]
-                }
-              ]
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "adaptCollisionMaskAutomatically": true,
-      "assetStoreId": "",
       "name": "DeskObstacle",
       "type": "Sprite",
       "updateIfNotVisible": false,
@@ -341,42 +227,6 @@
                 {
                   "hasCustomCollisionMask": true,
                   "image": "bb2921e0a7d217d6d25766367e504923e0c3174b90844651142d1df98dd35e69_Table.png",
-                  "points": [],
-                  "originPoint": {
-                    "name": "origine",
-                    "x": 0,
-                    "y": 0
-                  },
-                  "centerPoint": {
-                    "automatic": true,
-                    "name": "centre",
-                    "x": 0,
-                    "y": 0
-                  },
-                  "customCollisionMask": [
-                    [
-                      {
-                        "x": 0,
-                        "y": 0
-                      },
-                      {
-                        "x": 80,
-                        "y": 0
-                      },
-                      {
-                        "x": 80,
-                        "y": 32
-                      },
-                      {
-                        "x": 0,
-                        "y": 32
-                      }
-                    ]
-                  ]
-                },
-                {
-                  "hasCustomCollisionMask": true,
-                  "image": "DeskObstacle",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -476,6 +326,66 @@
           ]
         }
       ]
+    },
+    {
+      "adaptCollisionMaskAutomatically": true,
+      "assetStoreId": "",
+      "name": "CoworkerObstacle",
+      "type": "Sprite",
+      "updateIfNotVisible": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "animations": [
+        {
+          "name": "",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "f37b9386914d1e5679a01a04b38d066c63ffc1ad53e56ec98069f9b6f7ae03f2_Mr. Man_Idle_3.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 3,
+                        "y": 1
+                      },
+                      {
+                        "x": 13,
+                        "y": 1
+                      },
+                      {
+                        "x": 13,
+                        "y": 16
+                      },
+                      {
+                        "x": 3,
+                        "y": 16
+                      }
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
     }
   ],
   "objectsFolderStructure": {
@@ -491,13 +401,13 @@
         "objectName": "BubblerObstacle"
       },
       {
-        "objectName": "CoworkerObstacle"
-      },
-      {
         "objectName": "DeskObstacle"
       },
       {
         "objectName": "End"
+      },
+      {
+        "objectName": "CoworkerObstacle"
       }
     ]
   },
@@ -637,8 +547,8 @@
                   "parameters": [
                     "BedObstacle",
                     "CoworkerObstacle",
-                    "1009",
-                    "9",
+                    "1188",
+                    "336",
                     ""
                   ]
                 },
@@ -649,8 +559,8 @@
                   "parameters": [
                     "CoworkerObstacle",
                     "Resizable",
-                    "220",
-                    "220"
+                    "48",
+                    "43"
                   ]
                 }
               ]
@@ -697,6 +607,35 @@
                     "DeskObstacle",
                     "112",
                     "287",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "ResizableCapability::ResizableBehavior::SetSize"
+                  },
+                  "parameters": [
+                    "DeskObstacle",
+                    "Resizable",
+                    "214",
+                    "111"
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [],
+              "actions": [
+                {
+                  "type": {
+                    "value": "Create"
+                  },
+                  "parameters": [
+                    "",
+                    "DeskObstacle",
+                    "960",
+                    "80",
                     ""
                   ]
                 },
@@ -1988,7 +1927,7 @@
           },
           "parameters": [
             "",
-            "\"CutScene2\"",
+            "\"CutScene3\"",
             ""
           ]
         }
