@@ -1,9 +1,9 @@
 {
   "firstLayout": "Main Menu",
   "gdVersion": {
-    "build": 99,
-    "major": 4,
-    "minor": 0,
+    "build": 209,
+    "major": 5,
+    "minor": 4,
     "revision": 0
   },
   "properties": {
@@ -1023,6 +1023,15 @@
         "kind": "image",
         "metadata": "{\"localFilePath\":\"snake.png\",\"extension\":\".png\"}",
         "name": "snake.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "snake2.png",
+        "kind": "image",
+        "metadata": "{\"localFilePath\":\"snake2.png\",\"extension\":\".png\"}",
+        "name": "snake2.png",
         "smoothed": true,
         "userAdded": false
       }
