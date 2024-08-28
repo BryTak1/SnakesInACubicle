@@ -438,14 +438,6 @@
       "actions": [
         {
           "type": {
-            "value": "PlayerAuthentication::DisplayAuthenticationBanner"
-          },
-          "parameters": [
-            ""
-          ]
-        },
-        {
-          "type": {
             "value": "Create"
           },
           "parameters": [
@@ -648,99 +640,6 @@
                     "Resizable",
                     "214",
                     "111"
-                  ]
-                }
-              ]
-            },
-            {
-              "type": "BuiltinCommonInstructions::Standard",
-              "conditions": [
-                {
-                  "type": {
-                    "value": "CollisionNP"
-                  },
-                  "parameters": [
-                    "Food",
-                    "CoworkerObstacle",
-                    "",
-                    "",
-                    "yes"
-                  ]
-                }
-              ],
-              "actions": [
-                {
-                  "type": {
-                    "value": "MettreXY"
-                  },
-                  "parameters": [
-                    "Food",
-                    "=",
-                    "RandomWithStep(0,1287,30)",
-                    "=",
-                    "RandomWithStep(0,718,0)"
-                  ]
-                }
-              ]
-            },
-            {
-              "type": "BuiltinCommonInstructions::Standard",
-              "conditions": [
-                {
-                  "type": {
-                    "value": "CollisionNP"
-                  },
-                  "parameters": [
-                    "Food",
-                    "BubblerObstacle",
-                    "",
-                    "",
-                    "yes"
-                  ]
-                }
-              ],
-              "actions": [
-                {
-                  "type": {
-                    "value": "MettreXY"
-                  },
-                  "parameters": [
-                    "Food",
-                    "=",
-                    "RandomWithStep(0,1287,30)",
-                    "=",
-                    "RandomWithStep(0,718,0)"
-                  ]
-                }
-              ]
-            },
-            {
-              "type": "BuiltinCommonInstructions::Standard",
-              "conditions": [
-                {
-                  "type": {
-                    "value": "CollisionNP"
-                  },
-                  "parameters": [
-                    "Food",
-                    "DeskObstacle",
-                    "",
-                    "",
-                    "yes"
-                  ]
-                }
-              ],
-              "actions": [
-                {
-                  "type": {
-                    "value": "MettreXY"
-                  },
-                  "parameters": [
-                    "Food",
-                    "=",
-                    "RandomWithStep(0,1287,30)",
-                    "=",
-                    "RandomWithStep(0,718,0)"
                   ]
                 }
               ]
@@ -1482,6 +1381,99 @@
             "value": "CollisionNP"
           },
           "parameters": [
+            "Food",
+            "CoworkerObstacle",
+            "",
+            "",
+            "yes"
+          ]
+        }
+      ],
+      "actions": [
+        {
+          "type": {
+            "value": "MettreXY"
+          },
+          "parameters": [
+            "Food",
+            "=",
+            "RandomWithStep(0,1287,30)",
+            "=",
+            "RandomWithStep(0,718,0)"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [
+        {
+          "type": {
+            "value": "CollisionNP"
+          },
+          "parameters": [
+            "Food",
+            "BubblerObstacle",
+            "",
+            "",
+            "yes"
+          ]
+        }
+      ],
+      "actions": [
+        {
+          "type": {
+            "value": "MettreXY"
+          },
+          "parameters": [
+            "Food",
+            "=",
+            "RandomWithStep(0,1287,30)",
+            "=",
+            "RandomWithStep(0,718,0)"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [
+        {
+          "type": {
+            "value": "CollisionNP"
+          },
+          "parameters": [
+            "Food",
+            "DeskObstacle",
+            "",
+            "",
+            "yes"
+          ]
+        }
+      ],
+      "actions": [
+        {
+          "type": {
+            "value": "MettreXY"
+          },
+          "parameters": [
+            "Food",
+            "=",
+            "RandomWithStep(0,1287,30)",
+            "=",
+            "RandomWithStep(0,718,0)"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [
+        {
+          "type": {
+            "value": "CollisionNP"
+          },
+          "parameters": [
             "Head",
             "CoworkerObstacle",
             "",
@@ -1506,7 +1498,7 @@
           },
           "parameters": [
             "",
-            "\"Stage 1\"",
+            "\"Stage 3\"",
             ""
           ]
         },
@@ -1556,7 +1548,7 @@
           },
           "parameters": [
             "",
-            "\"Stage 1\"",
+            "\"Stage 3\"",
             ""
           ]
         },
@@ -1606,7 +1598,7 @@
           },
           "parameters": [
             "",
-            "\"Stage 1\"",
+            "\"Stage 3\"",
             ""
           ]
         },
@@ -1709,7 +1701,7 @@
           },
           "parameters": [
             "",
-            "\"Stage 1\"",
+            "\"Stage 3\"",
             ""
           ]
         }
@@ -1734,31 +1726,10 @@
       "actions": [
         {
           "type": {
-            "value": "Create"
-          },
-          "parameters": [
-            "",
-            "End",
-            "Tail.X()",
-            "Tail.Y()",
-            ""
-          ]
-        },
-        {
-          "type": {
             "value": "Delete"
           },
           "parameters": [
             "Tail",
-            ""
-          ]
-        },
-        {
-          "type": {
-            "value": "Delete"
-          },
-          "parameters": [
-            "End",
             ""
           ]
         }
