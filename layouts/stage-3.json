@@ -69,6 +69,23 @@
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 1,
+      "height": 111,
+      "keepRatio": true,
+      "layer": "",
+      "name": "DeskObstacle",
+      "persistentUuid": "2be39686-3664-48d9-af62-3b719e50dc45",
+      "width": 214,
+      "x": 112,
+      "y": 287,
+      "zOrder": 3,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
     }
   ],
   "objects": [
@@ -208,7 +225,7 @@
     {
       "adaptCollisionMaskAutomatically": true,
       "assetStoreId": "",
-      "name": "CubicleObstacle",
+      "name": "CoworkerObstacle",
       "type": "Sprite",
       "updateIfNotVisible": false,
       "variables": [],
@@ -474,7 +491,7 @@
         "objectName": "BubblerObstacle"
       },
       {
-        "objectName": "CubicleObstacle"
+        "objectName": "CoworkerObstacle"
       },
       {
         "objectName": "DeskObstacle"
@@ -569,7 +586,7 @@
           "colorG": 176,
           "colorR": 74,
           "creationTime": 0,
-          "name": "Stage 2",
+          "name": "Stage 3",
           "source": "",
           "type": "BuiltinCommonInstructions::Group",
           "events": [],
@@ -619,7 +636,7 @@
                   },
                   "parameters": [
                     "BedObstacle",
-                    "DeskObstacle",
+                    "CoworkerObstacle",
                     "1009",
                     "9",
                     ""
@@ -630,7 +647,7 @@
                     "value": "ResizableCapability::ResizableBehavior::SetSize"
                   },
                   "parameters": [
-                    "DeskObstacle",
+                    "CoworkerObstacle",
                     "Resizable",
                     "220",
                     "220"
@@ -648,9 +665,9 @@
                   },
                   "parameters": [
                     "",
-                    "CubicleObstacle",
-                    "524",
-                    "229",
+                    "DeskObstacle",
+                    "903",
+                    "489",
                     ""
                   ]
                 },
@@ -659,10 +676,10 @@
                     "value": "ResizableCapability::ResizableBehavior::SetSize"
                   },
                   "parameters": [
-                    "CubicleObstacle",
+                    "DeskObstacle",
                     "Resizable",
-                    "757",
-                    "109"
+                    "214",
+                    "111"
                   ]
                 }
               ]
@@ -677,9 +694,9 @@
                   },
                   "parameters": [
                     "",
-                    "CubicleObstacle",
-                    "-5",
-                    "395",
+                    "DeskObstacle",
+                    "112",
+                    "287",
                     ""
                   ]
                 },
@@ -688,10 +705,10 @@
                     "value": "ResizableCapability::ResizableBehavior::SetSize"
                   },
                   "parameters": [
-                    "CubicleObstacle",
+                    "DeskObstacle",
                     "Resizable",
-                    "880",
-                    "158"
+                    "214",
+                    "111"
                   ]
                 }
               ]
@@ -758,7 +775,7 @@
                   },
                   "parameters": [
                     "Head",
-                    "CubicleObstacle",
+                    "CoworkerObstacle",
                     "",
                     "",
                     "yes"
@@ -908,7 +925,7 @@
                   },
                   "parameters": [
                     "Food",
-                    "CubicleObstacle",
+                    "CoworkerObstacle",
                     "",
                     "",
                     "yes"
