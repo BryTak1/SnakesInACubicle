@@ -198,42 +198,6 @@
                       }
                     ]
                   ]
-                },
-                {
-                  "hasCustomCollisionMask": true,
-                  "image": "PlantObstacle",
-                  "points": [],
-                  "originPoint": {
-                    "name": "origine",
-                    "x": 0,
-                    "y": 0
-                  },
-                  "centerPoint": {
-                    "automatic": true,
-                    "name": "centre",
-                    "x": 0,
-                    "y": 0
-                  },
-                  "customCollisionMask": [
-                    [
-                      {
-                        "x": 5,
-                        "y": 3
-                      },
-                      {
-                        "x": 27,
-                        "y": 3
-                      },
-                      {
-                        "x": 27,
-                        "y": 29
-                      },
-                      {
-                        "x": 5,
-                        "y": 29
-                      }
-                    ]
-                  ]
                 }
               ]
             }
@@ -500,8 +464,8 @@
           "parameters": [
             "",
             "Food",
-            "RandomWithStep(0,1287,30)",
-            "RandomWithStep(0,718,0)",
+            "RandomWithStep(5,1270,30)",
+            "RandomWithStep(5,700,0)",
             ""
           ]
         },
