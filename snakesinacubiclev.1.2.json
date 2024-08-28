@@ -1,9 +1,9 @@
 {
   "firstLayout": "Main Menu",
   "gdVersion": {
-    "build": 99,
-    "major": 4,
-    "minor": 0,
+    "build": 209,
+    "major": 5,
+    "minor": 4,
     "revision": 0
   },
   "properties": {
@@ -928,6 +928,94 @@
           "identifier": "https://asset-resources.gdevelop.io/public-resources/32x32 Fantasy Icons Pack v2/Icons/General Items/f9230227101fc56d013718485d5a06165896f0a5cfa4d3d7d3ae42b846af7586_Plant-Pot Fully Grown_No Shadow.png",
           "name": "gdevelop-asset-store"
         }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "scene2-background.jpg",
+        "kind": "image",
+        "metadata": "",
+        "name": "scene2-background.jpg",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "scene2-guy.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "scene2-guy.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "scene2-background2.jpg",
+        "kind": "image",
+        "metadata": "",
+        "name": "scene2-background2.jpg",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "scene2-guy2.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "scene2-guy2.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "disablePreload": false,
+        "file": "assets/Dialogue.json",
+        "kind": "json",
+        "metadata": "{\"extension\":\".json\"}",
+        "name": "Dialogue",
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "scene3-background.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "scene3-background.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "scene3-guy.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "scene3-guy.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/scene3-guy.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "scene3-guy",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "scene3-guy2.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "scene3-guy2.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "disablePreload": false,
+        "file": "assets/Dialogue2.json",
+        "kind": "json",
+        "metadata": "{\"extension\":\".json\"}",
+        "name": "Dialogue2",
+        "userAdded": true
       }
     ],
     "resourceFolders": []
