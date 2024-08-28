@@ -33,9 +33,26 @@
       "name": "NewText",
       "persistentUuid": "ab702d84-9f6a-4dcf-9409-0efed4675130",
       "width": 0,
-      "x": 107,
-      "y": 299,
+      "x": 91,
+      "y": 91,
       "zOrder": 1,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 8,
+      "height": 538,
+      "keepRatio": true,
+      "layer": "",
+      "name": "Snake",
+      "persistentUuid": "ad30cead-d7e0-4478-93a2-c2fba652db0f",
+      "width": 538,
+      "x": 368,
+      "y": 159,
+      "zOrder": 2,
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
@@ -82,6 +99,67 @@
         "characterSize": 50,
         "color": "0;0;0"
       }
+    },
+    {
+      "adaptCollisionMaskAutomatically": true,
+      "assetStoreId": "",
+      "name": "Snake",
+      "type": "Sprite",
+      "updateIfNotVisible": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "animations": [
+        {
+          "name": "snake",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "metadata": "{\"pskl\":{}}",
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "snake.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 11,
+                        "y": 8
+                      },
+                      {
+                        "x": 45,
+                        "y": 8
+                      },
+                      {
+                        "x": 45,
+                        "y": 64
+                      },
+                      {
+                        "x": 11,
+                        "y": 64
+                      }
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
     }
   ],
   "objectsFolderStructure": {
@@ -89,6 +167,9 @@
     "children": [
       {
         "objectName": "NewText"
+      },
+      {
+        "objectName": "Snake"
       }
     ]
   },
