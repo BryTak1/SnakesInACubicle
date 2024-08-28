@@ -451,14 +451,6 @@
           "actions": [
             {
               "type": {
-                "value": "PlayerAuthentication::DisplayAuthenticationBanner"
-              },
-              "parameters": [
-                ""
-              ]
-            },
-            {
-              "type": {
                 "value": "Create"
               },
               "parameters": [
