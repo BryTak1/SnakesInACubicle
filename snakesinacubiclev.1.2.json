@@ -1,9 +1,9 @@
 {
   "firstLayout": "Main Menu",
   "gdVersion": {
-    "build": 209,
-    "major": 5,
-    "minor": 4,
+    "build": 99,
+    "major": 4,
+    "minor": 0,
     "revision": 0
   },
   "properties": {
@@ -1061,6 +1061,28 @@
         "name": "NewSprite18",
         "smoothed": true,
         "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Heart Boxers_No Shadow.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "1ad68c4b43ac5b59c80769c9e07332fdd9256f71c2bb81afbbff18df7229292b_Heart Boxers_No Shadow.png",
+        "smoothed": true,
+        "userAdded": true,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/32x32 Fantasy Icons Pack v2/Icons/Clothing & Armor/1ad68c4b43ac5b59c80769c9e07332fdd9256f71c2bb81afbbff18df7229292b_Heart Boxers_No Shadow.png",
+          "name": "gdevelop-asset-store"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/NewSprite11.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\NewSprite11.png",
+        "smoothed": true,
+        "userAdded": true
       }
     ],
     "resourceFolders": []
@@ -1317,6 +1339,10 @@
     {
       "__REFERENCE_TO_SPLIT_OBJECT": true,
       "referenceTo": "/layouts/finalcutscene"
+    },
+    {
+      "__REFERENCE_TO_SPLIT_OBJECT": true,
+      "referenceTo": "/layouts/epiccreditscene"
     }
   ],
   "externalEvents": [],

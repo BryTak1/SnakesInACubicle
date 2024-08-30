@@ -1,8 +1,8 @@
 {
   "b": 209,
   "disableInputWhenNotFocused": true,
-  "mangledName": "FinalCutScene",
-  "name": "FinalCutScene",
+  "mangledName": "EpicCreditScene",
+  "name": "EpicCreditScene",
   "r": 209,
   "standardSortMethod": true,
   "stopSoundsOnStartup": true,
@@ -26,15 +26,16 @@
   "instances": [
     {
       "angle": 0,
-      "customSize": false,
-      "height": 0,
+      "customSize": true,
+      "depth": 1,
+      "height": 304,
       "keepRatio": true,
       "layer": "",
-      "name": "NewText",
-      "persistentUuid": "ab702d84-9f6a-4dcf-9409-0efed4675130",
-      "width": 0,
-      "x": 91,
-      "y": 91,
+      "name": "Credit_Text_Box",
+      "persistentUuid": "02d9358f-d76d-4606-b9d7-1eeb8aed3b38",
+      "width": 825,
+      "x": 142,
+      "y": 59,
       "zOrder": 1,
       "numberProperties": [],
       "stringProperties": [],
@@ -43,15 +44,15 @@
     {
       "angle": 0,
       "customSize": true,
-      "depth": 8,
-      "height": 538,
+      "depth": 3,
+      "height": 177,
       "keepRatio": true,
       "layer": "",
-      "name": "Snake",
-      "persistentUuid": "ad30cead-d7e0-4478-93a2-c2fba652db0f",
-      "width": 538,
-      "x": 368,
-      "y": 159,
+      "name": "NewSprite",
+      "persistentUuid": "6a743c06-e250-4ef2-9280-a3892bb72e7f",
+      "width": 177,
+      "x": 1013,
+      "y": 508,
       "zOrder": 2,
       "numberProperties": [],
       "stringProperties": [],
@@ -63,17 +64,17 @@
       "assetStoreId": "",
       "bold": false,
       "italic": false,
-      "name": "NewText",
+      "name": "Credit_Text_Box",
       "smoothed": true,
       "type": "TextObject::Text",
       "underlined": false,
       "variables": [],
       "effects": [],
       "behaviors": [],
-      "string": "Taadaaa you just survived your first day of work.",
+      "string": "Image Credits:\n\n- surang. \"Desk free icon.\" Flaticon. https://www.flaticon.com/free-icon/desk_5144155\n- Daxiao_Productions. \"Man in suit eats BLT eagerly.\" Depositphotos. https://depositphotos.com/photo/man-in-suit-eats-blt-eagerly-80870460.html\n- Yanus, Yanin. \"Pixel Art Carpet.\" Pinterest. https://www.pinterest.com/pin/513128951305041045/\n- Office Backgrounds: Adobe Stock images. https://stock.adobe.com/search?k=office\n\nCode Tutorial Credits:\n\n- Sivovi. \"How to Make SNAKE Game in GDevelop.\" Youtube. https://www.youtube.com/watch?v=JyEE2WL3gYs",
       "font": "",
       "textAlignment": "left",
-      "characterSize": 50,
+      "characterSize": 30,
       "color": {
         "b": 0,
         "g": 0,
@@ -93,17 +94,17 @@
         "shadowOpacity": 127,
         "smoothed": true,
         "underlined": false,
-        "text": "Taadaaa you just survived your first day of work.",
+        "text": "Image Credits:\n\n- surang. \"Desk free icon.\" Flaticon. https://www.flaticon.com/free-icon/desk_5144155\n- Daxiao_Productions. \"Man in suit eats BLT eagerly.\" Depositphotos. https://depositphotos.com/photo/man-in-suit-eats-blt-eagerly-80870460.html\n- Yanus, Yanin. \"Pixel Art Carpet.\" Pinterest. https://www.pinterest.com/pin/513128951305041045/\n- Office Backgrounds: Adobe Stock images. https://stock.adobe.com/search?k=office\n\nCode Tutorial Credits:\n\n- Sivovi. \"How to Make SNAKE Game in GDevelop.\" Youtube. https://www.youtube.com/watch?v=JyEE2WL3gYs",
         "font": "",
         "textAlignment": "left",
-        "characterSize": 50,
+        "characterSize": 30,
         "color": "0;0;0"
       }
     },
     {
       "adaptCollisionMaskAutomatically": true,
       "assetStoreId": "",
-      "name": "Snake",
+      "name": "NewSprite",
       "type": "Sprite",
       "updateIfNotVisible": false,
       "variables": [],
@@ -111,17 +112,16 @@
       "behaviors": [],
       "animations": [
         {
-          "name": "snake",
+          "name": "",
           "useMultipleDirections": false,
           "directions": [
             {
-              "looping": true,
-              "metadata": "{\"pskl\":{}}",
+              "looping": false,
               "timeBetweenFrames": 0.08,
               "sprites": [
                 {
                   "hasCustomCollisionMask": true,
-                  "image": "snake.png",
+                  "image": "assets\\NewSprite11.png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -137,69 +137,20 @@
                   "customCollisionMask": [
                     [
                       {
-                        "x": 11,
-                        "y": 8
+                        "x": 16,
+                        "y": 7
                       },
                       {
-                        "x": 45,
-                        "y": 8
+                        "x": 49,
+                        "y": 7
                       },
                       {
-                        "x": 45,
-                        "y": 64
+                        "x": 49,
+                        "y": 63
                       },
                       {
-                        "x": 11,
-                        "y": 64
-                      }
-                    ]
-                  ]
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "name": "snake2",
-          "useMultipleDirections": false,
-          "directions": [
-            {
-              "looping": true,
-              "metadata": "{\"pskl\":{}}",
-              "timeBetweenFrames": 0.08,
-              "sprites": [
-                {
-                  "hasCustomCollisionMask": true,
-                  "image": "snake2.png",
-                  "points": [],
-                  "originPoint": {
-                    "name": "origine",
-                    "x": 0,
-                    "y": 0
-                  },
-                  "centerPoint": {
-                    "automatic": true,
-                    "name": "centre",
-                    "x": 0,
-                    "y": 0
-                  },
-                  "customCollisionMask": [
-                    [
-                      {
-                        "x": 11,
-                        "y": 8
-                      },
-                      {
-                        "x": 45,
-                        "y": 8
-                      },
-                      {
-                        "x": 45,
-                        "y": 64
-                      },
-                      {
-                        "x": 11,
-                        "y": 64
+                        "x": 16,
+                        "y": 63
                       }
                     ]
                   ]
@@ -215,10 +166,10 @@
     "folderName": "__ROOT",
     "children": [
       {
-        "objectName": "NewText"
+        "objectName": "Credit_Text_Box"
       },
       {
-        "objectName": "Snake"
+        "objectName": "NewSprite"
       }
     ]
   },
@@ -244,24 +195,6 @@
             "",
             "\"sceneLength\""
           ]
-        },
-        {
-          "type": {
-            "value": "ResetObjectTimer"
-          },
-          "parameters": [
-            "Snake",
-            "\"flip\""
-          ]
-        },
-        {
-          "type": {
-            "value": "ResetObjectTimer"
-          },
-          "parameters": [
-            "Snake",
-            "\"flip2\""
-          ]
         }
       ]
     },
@@ -276,7 +209,7 @@
             "",
             "\"sceneLength\"",
             ">=",
-            "8"
+            "5"
           ]
         }
       ],
@@ -287,92 +220,11 @@
           },
           "parameters": [
             "",
-            "\"EpicCreditScene\"",
+            "\"Main Menu\"",
             ""
           ]
         }
       ]
-    },
-    {
-      "type": "BuiltinCommonInstructions::Standard",
-      "conditions": [
-        {
-          "type": {
-            "value": "CompareObjectTimer"
-          },
-          "parameters": [
-            "Snake",
-            "\"flip\"",
-            ">=",
-            ".5"
-          ]
-        }
-      ],
-      "actions": [
-        {
-          "type": {
-            "value": "AnimatableCapability::AnimatableBehavior::SetName"
-          },
-          "parameters": [
-            "Snake",
-            "Animation",
-            "=",
-            "\"snake2\""
-          ]
-        },
-        {
-          "type": {
-            "value": "ResetObjectTimer"
-          },
-          "parameters": [
-            "Snake",
-            "\"flip\""
-          ]
-        }
-      ]
-    },
-    {
-      "type": "BuiltinCommonInstructions::Standard",
-      "conditions": [
-        {
-          "type": {
-            "value": "CompareObjectTimer"
-          },
-          "parameters": [
-            "Snake",
-            "\"flip2\"",
-            ">=",
-            "1"
-          ]
-        }
-      ],
-      "actions": [
-        {
-          "type": {
-            "value": "AnimatableCapability::AnimatableBehavior::SetName"
-          },
-          "parameters": [
-            "Snake",
-            "Animation",
-            "=",
-            "\"snake\""
-          ]
-        },
-        {
-          "type": {
-            "value": "ResetObjectTimer"
-          },
-          "parameters": [
-            "Snake",
-            "\"flip2\""
-          ]
-        }
-      ]
-    },
-    {
-      "type": "BuiltinCommonInstructions::Standard",
-      "conditions": [],
-      "actions": []
     }
   ],
   "layers": [

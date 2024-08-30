@@ -107,7 +107,7 @@
               "sprites": [
                 {
                   "hasCustomCollisionMask": true,
-                  "image": "Food",
+                  "image": "1ad68c4b43ac5b59c80769c9e07332fdd9256f71c2bb81afbbff18df7229292b_Heart Boxers_No Shadow.png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -123,20 +123,20 @@
                   "customCollisionMask": [
                     [
                       {
-                        "x": 0,
-                        "y": 0
+                        "x": 6,
+                        "y": 8
                       },
                       {
-                        "x": 30,
-                        "y": 0
+                        "x": 26,
+                        "y": 8
                       },
                       {
-                        "x": 30,
-                        "y": 30
+                        "x": 26,
+                        "y": 25
                       },
                       {
-                        "x": 0,
-                        "y": 30
+                        "x": 6,
+                        "y": 25
                       }
                     ]
                   ]
